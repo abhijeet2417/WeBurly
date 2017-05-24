@@ -1,5 +1,17 @@
 [
     {
+        "merged": "/DNS/WeBurly/gutTest/androidHorizontalListView/build/intermediates/res/merged/androidTest/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/riyatraveltours/.android/build-cache/9de7071d3bdade86898e8e5a47a24079bbf0eddf/output/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/DNS/WeBurly/gutTest/androidHorizontalListView/build/intermediates/res/merged/androidTest/debug/layout-v21/notification_action.xml",
+        "source": "/Users/riyatraveltours/.android/build-cache/9de7071d3bdade86898e8e5a47a24079bbf0eddf/output/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/DNS/WeBurly/gutTest/androidHorizontalListView/build/intermediates/res/merged/androidTest/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/riyatraveltours/.android/build-cache/9de7071d3bdade86898e8e5a47a24079bbf0eddf/output/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
         "merged": "/DNS/WeBurly/androidHorizontalListView/build/intermediates/res/merged/androidTest/debug/layout-v21/notification_template_icon_group.xml",
         "source": "/Users/riyatraveltours/.android/build-cache/9de7071d3bdade86898e8e5a47a24079bbf0eddf/output/res/layout-v21/notification_template_icon_group.xml"
     },
@@ -13,6 +25,10 @@
     },
     {
         "merged": "/DNS/WeBurly/androidHorizontalListView/build/intermediates/res/merged/androidTest/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/riyatraveltours/.android/build-cache/9de7071d3bdade86898e8e5a47a24079bbf0eddf/output/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/DNS/WeBurly/gutTest/androidHorizontalListView/build/intermediates/res/merged/androidTest/debug/layout-v21/notification_action_tombstone.xml",
         "source": "/Users/riyatraveltours/.android/build-cache/9de7071d3bdade86898e8e5a47a24079bbf0eddf/output/res/layout-v21/notification_action_tombstone.xml"
     }
 ]

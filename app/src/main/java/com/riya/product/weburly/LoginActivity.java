@@ -16,6 +16,8 @@ public class LoginActivity extends AppCompatActivity {
 
        // getActionBar().hide();
 
+        //hello it is guit test please igoner
+
         TextView txt_registaration=(TextView) findViewById(R.id.txt_registaration);
         Button btn_signup=(Button) findViewById(R.id.btn_signup);
         Button btn_cancel= (Button) findViewById(R.id.btn_cancel);
