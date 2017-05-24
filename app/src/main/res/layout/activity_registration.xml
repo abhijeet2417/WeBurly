@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_img"
+    >
+
+
+
+
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="30dp"
+        >
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/dns"
+            android:scaleType="centerCrop"
+
+            />
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:textColorHint="@android:color/black"
+
+            android:layout_height="wrap_content">
+            <EditText
+
+                android:background="@color/txtbg"
+                android:padding="@dimen/_6sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter user name"
+                android:inputType="textPersonName"
+                android:maxLines="1"
+                android:drawablePadding="@dimen/_10sdp"
+                android:drawableLeft="@drawable/user"
+                android:textSize="@dimen/_12sdp" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:textColorHint="@android:color/black"
+
+            android:layout_height="wrap_content">
+            <EditText
+
+                android:background="@color/txtbg"
+                android:padding="@dimen/_6sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter mobile no"
+                android:inputType="textPersonName"
+                android:maxLines="1"
+                android:drawablePadding="@dimen/_10sdp"
+                android:drawableLeft="@drawable/user"
+                android:textSize="@dimen/_12sdp" />
+
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:textColorHint="@android:color/black"
+
+            android:layout_height="wrap_content">
+            <EditText
+
+                android:background="@color/txtbg"
+                android:padding="@dimen/_6sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter emailid"
+                android:inputType="textPersonName"
+                android:maxLines="1"
+                android:drawablePadding="@dimen/_10sdp"
+                android:drawableLeft="@drawable/user"
+                android:textSize="@dimen/_12sdp" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:textColorHint="@android:color/black"
+            android:layout_height="wrap_content">
+            <EditText
+
+                android:background="@color/txtbg"
+                android:padding="@dimen/_6sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter password"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:drawablePadding="@dimen/_10sdp"
+                android:drawableLeft="@drawable/user"
+                android:textSize="@dimen/_12sdp" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:textColorHint="@android:color/black"
+            android:layout_height="wrap_content">
+            <EditText
+
+                android:background="@color/txtbg"
+                android:padding="@dimen/_6sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter society Name"
+                android:inputType="textPersonName"
+                android:maxLines="1"
+                android:drawablePadding="@dimen/_10sdp"
+                android:drawableLeft="@drawable/user"
+                android:textSize="@dimen/_12sdp" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/btn_cancel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="@color/colorPrimaryDark"
+                android:text="Cancel"
+                android:textColor="@android:color/black" />
+
+            <Button
+                android:id="@+id/btn_signup"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+               android:layout_weight="1"
+                android:background="@color/colorPrimaryDark"
+                android:text="Save"
+                android:textColor="@android:color/black" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>
+
+

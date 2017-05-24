@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <!--<item-->
+            <!--android:id="@+id/nav_camera"-->
+            <!--android:title="Pottery Products" />-->
+        <!--<item-->
+            <!--android:id="@+id/nav_gallery"-->
+            <!--android:title="Diffuser Lamps" />-->
+        <!--<item-->
+            <!--android:id="@+id/nav_slideshow"-->
+            <!--android:title="Furnishings" />-->
+        <!--<item-->
+            <!--android:id="@+id/nav_manage"-->
+            <!--android:title="Decor" />-->
+        <!--<item-->
+            <!--android:id="@+id/kitchen"-->
+            <!--android:title="Kitchen" />-->
+
+        <item
+            android:id="@+id/mycart"
+            android:title="My Cart" />
+        <item
+            android:id="@+id/wishlist"
+            android:title="Wallet" />
+        <item
+            android:id="@+id/myorders"
+            android:title="My Orders" />
+        <item
+            android:id="@+id/myaccount"
+            android:title="My Account" />
+
+    </group>
+
+    <!--<item android:title="Gemstones">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/arrow"
+                android:title="Ruby" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/arrow"
+                android:title="Coral" />
+            <item
+                android:id="@+id/pearl"
+                android:icon="@drawable/arrow"
+                android:title="Pearl" />
+            <item
+                android:id="@+id/emerald"
+                android:icon="@drawable/arrow"
+                android:title="Emerald" />
+            <item
+                android:id="@+id/Sapphire"
+                android:icon="@drawable/arrow"
+                android:title="Sapphire and Lapis Lazuli" />
+        </menu>
+    </item>
+-->
+
+
+</menu>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.riya.product.weburly.SingUpActivity">
+
+     <EditText
+         android:id="@+id/txtname"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:hint="Name"
+         android:layout_margin="@dimen/_1sdp"
+         android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/txtemailid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:layout_margin="@dimen/_1sdp"
+        android:inputType="textEmailAddress"/>
+
+    <EditText
+        android:id="@+id/txtmobileno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mobile No"
+        android:layout_margin="@dimen/_1sdp"
+        android:inputType="phone"/>
+
+    <EditText
+        android:id="@+id/txtaddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Address"
+        android:layout_margin="@dimen/_1sdp"
+        android:inputType="textMultiLine"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date of Birth"
+        />
+
+    <EditText
+        android:id="@+id/txtdob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_1sdp"
+        android:hint="yyyy-mm-dd" />
+
+    <EditText
+        android:id="@+id/txtpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_1sdp"
+        android:inputType="textPassword"
+        android:hint="Password" />
+
+    <EditText
+        android:id="@+id/txtconpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_1sdp"
+        android:inputType="textPassword"
+        android:hint="Confirm Password" />
+
+    <LinearLayout
+        android:paddingLeft="@dimen/_5sdp"
+        android:paddingRight="@dimen/_5sdp"
+        android:paddingTop="@dimen/_10sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        >
+
+        <Button
+            android:id="@+id/btnsubmit"
+            android:layout_width="@dimen/_120sdp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:padding="@dimen/_7sdp"
+            android:background="@color/colorPrimary"
+            android:textColor="#FFFFFF"
+            android:layout_margin="@dimen/_5sdp"
+            android:text="Submit"/>
+
+        <Button
+            android:id="@+id/btncancel"
+            android:layout_width="@dimen/_120sdp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:padding="@dimen/_7sdp"
+            android:background="@color/colorPrimary"
+            android:textColor="#FFFFFF"
+            android:layout_margin="@dimen/_5sdp"
+            android:text="Cancel"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

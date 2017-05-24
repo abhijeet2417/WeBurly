@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.github.ksoichiro.android.observablescrollview.ObservableScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_img"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:paddingBottom="@dimen/_10sdp"
+        android:paddingLeft="@dimen/_10sdp"
+        android:paddingRight="@dimen/_10sdp"
+        android:paddingTop="@dimen/_10sdp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imgsearch"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_25sdp"
+        android:src="@drawable/search"
+        android:layout_marginBottom="@dimen/_5sdp"/>
+
+    <com.daimajia.slider.library.SliderLayout
+        android:id="@+id/slider"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_150sdp"
+        />
+
+    <com.daimajia.slider.library.Indicators.PagerIndicator
+        android:id="@+id/custom_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:padding="@dimen/_8sdp"
+        android:layout_height="wrap_content">
+
+     <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Fruits and Vegetables"
+        android:layout_weight="8"
+        android:textStyle="bold"
+        android:textSize="@dimen/_13sdp"
+        android:gravity="left"
+        android:textColor="@android:color/white"
+        />
+
+        <TextView
+            android:id="@+id/txtpotteryproduct"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="See more"
+            android:textStyle="bold"
+            android:padding="@dimen/_3sdp"
+            android:textSize="@dimen/_10sdp"
+            android:background="@color/colorPrimary"
+            android:textColor="@android:color/white"
+            android:layout_weight="2"
+            android:gravity="center_horizontal" />
+
+    </LinearLayout>
+
+    <com.meetme.android.horizontallistview.HorizontalListView
+        android:id="@+id/list_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_160sdp"
+        android:layout_centerInParent="true"
+        android:gravity="center" >
+    </com.meetme.android.horizontallistview.HorizontalListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:padding="@dimen/_8sdp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_weight="8"
+            android:textStyle="bold"
+            android:textSize="@dimen/_13sdp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Bread Dairy and Eggs"
+            android:gravity="left"
+            android:textColor="@android:color/white"
+            />
+
+        <TextView
+            android:id="@+id/txtjewellery"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="See more"
+            android:textStyle="bold"
+            android:padding="@dimen/_3sdp"
+            android:textSize="@dimen/_10sdp"
+            android:background="@color/colorPrimary"
+            android:textColor="@android:color/white"
+            android:layout_weight="2"
+            android:gravity="center_horizontal"
+            />
+
+    </LinearLayout>
+
+        <com.meetme.android.horizontallistview.HorizontalListView
+            android:id="@+id/list_tones"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_160sdp"
+            android:layout_centerInParent="true"
+            android:gravity="center" >
+        </com.meetme.android.horizontallistview.HorizontalListView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="10"
+            android:padding="@dimen/_8sdp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_weight="8"
+                android:textStyle="bold"
+                android:textSize="@dimen/_13sdp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Grocery and Staples"
+                android:gravity="left"
+                android:textColor="@android:color/white"
+                />
+
+            <TextView
+                android:id="@+id/txtgiftitem"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="See more"
+                android:textStyle="bold"
+                android:padding="@dimen/_3sdp"
+                android:textSize="@dimen/_10sdp"
+                android:background="@color/colorPrimary"
+                android:textColor="@android:color/white"
+                android:layout_weight="2"
+                android:gravity="center_horizontal"
+                />
+
+        </LinearLayout>
+
+        <com.meetme.android.horizontallistview.HorizontalListView
+            android:id="@+id/list_decor"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_160sdp"
+            android:layout_centerInParent="true"
+            android:gravity="center" >
+        </com.meetme.android.horizontallistview.HorizontalListView>
+
+
+    </LinearLayout>
+</com.github.ksoichiro.android.observablescrollview.ObservableScrollView>

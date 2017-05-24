@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/bg_img"
+    tools:context="com.riya.product.weburly.ProductDetailsActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/linlaHeaderProgress"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+
+        <ProgressBar
+            android:indeterminate="true"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:indeterminateDrawable="@drawable/custom_progress_background"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_200sdp"
+        android:background="@drawable/box"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/proimage"
+            android:layout_width="@dimen/_210sdp"
+            android:layout_height="@dimen/_110sdp"
+            android:layout_margin="@dimen/_5sdp"
+            android:src="@drawable/apple"
+
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            >
+
+        <LinearLayout
+            android:padding="@dimen/_2sdp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:paddingBottom="@dimen/_2sdp"
+                android:paddingTop="@dimen/_2sdp"
+                android:paddingLeft="@dimen/_20sdp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Apple"
+                android:textSize="@dimen/_11sdp"
+                android:textStyle="bold"
+
+                />
+
+            <TextView
+                android:paddingBottom="@dimen/_2sdp"
+                android:paddingTop="@dimen/_2sdp"
+                android:paddingLeft="@dimen/_20sdp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Specification:"
+                android:textSize="@dimen/_11sdp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+            <LinearLayout
+                android:padding="@dimen/_2sdp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:orientation="vertical">
+
+                <TextView
+                    android:paddingBottom="@dimen/_2sdp"
+                    android:paddingTop="@dimen/_2sdp"
+                    android:paddingRight="@dimen/_20sdp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rs. 100/-"
+                    android:textSize="@dimen/_11sdp"
+                    android:textStyle="bold"
+
+                    />
+
+                <TextView
+                    android:paddingBottom="@dimen/_2sdp"
+                    android:paddingTop="@dimen/_2sdp"
+                    android:paddingRight="@dimen/_20sdp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" -  1  + "
+                    android:textSize="@dimen/_11sdp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:padding="@dimen/_2sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            >
+
+            <Button
+                android:id="@+id/btnaddtocart"
+                android:layout_width="@dimen/_120sdp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+
+                android:background="@color/colorPrimary"
+                android:textColor="#FFFFFF"
+                android:layout_margin="@dimen/_5sdp"
+                android:text="Add to cart"/>
+
+            <Button
+                android:id="@+id/btnplaceorder"
+                android:layout_width="@dimen/_120sdp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+
+                android:background="@color/colorPrimary"
+                android:textColor="#FFFFFF"
+                android:layout_margin="@dimen/_5sdp"
+                android:text="BUY NOW"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:padding="@dimen/_8sdp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Similar Products"
+            android:layout_weight="8"
+            android:textStyle="bold"
+            android:textSize="@dimen/_13sdp"
+            android:gravity="left"
+            android:textColor="@android:color/white"
+            />
+
+        <TextView
+            android:id="@+id/txtpotteryproduct"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="See more"
+            android:textStyle="bold"
+            android:padding="@dimen/_3sdp"
+            android:textSize="@dimen/_10sdp"
+            android:background="@color/colorPrimary"
+            android:textColor="@android:color/white"
+            android:layout_weight="2"
+            android:gravity="center_horizontal" />
+
+    </LinearLayout>
+
+    <com.meetme.android.horizontallistview.HorizontalListView
+        android:id="@+id/list_decor"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_160sdp"
+        android:layout_centerInParent="true"
+        android:gravity="center" >
+    </com.meetme.android.horizontallistview.HorizontalListView>
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
