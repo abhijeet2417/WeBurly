@@ -3,10 +3,15 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/androidHorizontalListView/androidHorizontalListView.iml" filepath="$PROJECT_DIR$/androidHorizontalListView/androidHorizontalListView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/androidHorizontalListView/androidHorizontalListView.iml" filepath="$PROJECT_DIR$/androidHorizontalListView/androidHorizontalListView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/gutTest.iml" filepath="$PROJECT_DIR$/gutTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
       <module fileurl="file://$PROJECT_DIR$/sdp-android/sdp-android.iml" filepath="$PROJECT_DIR$/sdp-android/sdp-android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sdp-android/sdp-android.iml" filepath="$PROJECT_DIR$/sdp-android/sdp-android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/second test.iml" filepath="$PROJECT_DIR$/second test.iml" />
     </modules>
   </component>
 </project>

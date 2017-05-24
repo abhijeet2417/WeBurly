@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="/DNS/WeBurly/gutTest/androidHorizontalListView/src/main/assets"/><source path="/DNS/WeBurly/gutTest/androidHorizontalListView/build/generated/assets/shaders/release"/></dataSet><dataSet config="release"><source path="/DNS/WeBurly/gutTest/androidHorizontalListView/src/release/assets"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="/DNS/second test/androidHorizontalListView/src/main/assets"/><source path="/DNS/second test/androidHorizontalListView/build/generated/assets/shaders/release"/></dataSet><dataSet config="release"><source path="/DNS/second test/androidHorizontalListView/src/release/assets"/></dataSet></merger>

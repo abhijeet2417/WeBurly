@@ -1,19 +1,11 @@
 [
     {
-        "merged": "/DNS/WeBurly/androidHorizontalListView/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
-        "source": "/Users/riyatraveltours/.android/build-cache/9de7071d3bdade86898e8e5a47a24079bbf0eddf/output/res/anim/abc_slide_out_bottom.xml"
-    },
-    {
-        "merged": "/DNS/WeBurly/androidHorizontalListView/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
-        "source": "/Users/riyatraveltours/.android/build-cache/9de7071d3bdade86898e8e5a47a24079bbf0eddf/output/res/anim/abc_fade_out.xml"
+        "merged": "/DNS/second test/androidHorizontalListView/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
+        "source": "/Users/riyatraveltours/.android/build-cache/9de7071d3bdade86898e8e5a47a24079bbf0eddf/output/res/anim/abc_slide_out_top.xml"
     },
     {
         "merged": "/DNS/WeBurly/gutTest/androidHorizontalListView/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
         "source": "/Users/riyatraveltours/.android/build-cache/9de7071d3bdade86898e8e5a47a24079bbf0eddf/output/res/anim/abc_slide_in_bottom.xml"
-    },
-    {
-        "merged": "/DNS/WeBurly/gutTest/androidHorizontalListView/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
-        "source": "/Users/riyatraveltours/.android/build-cache/9de7071d3bdade86898e8e5a47a24079bbf0eddf/output/res/anim/abc_popup_enter.xml"
     },
     {
         "merged": "/DNS/WeBurly/androidHorizontalListView/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
@@ -22,10 +14,6 @@
     {
         "merged": "/DNS/WeBurly/androidHorizontalListView/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
         "source": "/Users/riyatraveltours/.android/build-cache/9de7071d3bdade86898e8e5a47a24079bbf0eddf/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
-    },
-    {
-        "merged": "/DNS/WeBurly/androidHorizontalListView/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
-        "source": "/Users/riyatraveltours/.android/build-cache/9de7071d3bdade86898e8e5a47a24079bbf0eddf/output/res/anim/abc_popup_exit.xml"
     },
     {
         "merged": "/DNS/WeBurly/androidHorizontalListView/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
@@ -44,12 +32,20 @@
         "source": "/Users/riyatraveltours/.android/build-cache/9de7071d3bdade86898e8e5a47a24079bbf0eddf/output/res/anim/abc_slide_out_top.xml"
     },
     {
-        "merged": "/DNS/WeBurly/androidHorizontalListView/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
+        "merged": "/DNS/second test/androidHorizontalListView/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
         "source": "/Users/riyatraveltours/.android/build-cache/9de7071d3bdade86898e8e5a47a24079bbf0eddf/output/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/DNS/second test/androidHorizontalListView/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
+        "source": "/Users/riyatraveltours/.android/build-cache/9de7071d3bdade86898e8e5a47a24079bbf0eddf/output/res/anim/abc_popup_enter.xml"
     },
     {
         "merged": "/DNS/WeBurly/gutTest/androidHorizontalListView/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
         "source": "/Users/riyatraveltours/.android/build-cache/9de7071d3bdade86898e8e5a47a24079bbf0eddf/output/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/DNS/second test/androidHorizontalListView/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
+        "source": "/Users/riyatraveltours/.android/build-cache/9de7071d3bdade86898e8e5a47a24079bbf0eddf/output/res/anim/abc_slide_in_bottom.xml"
     },
     {
         "merged": "/DNS/WeBurly/androidHorizontalListView/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
@@ -60,6 +56,50 @@
         "source": "/Users/riyatraveltours/.android/build-cache/9de7071d3bdade86898e8e5a47a24079bbf0eddf/output/res/anim/abc_fade_in.xml"
     },
     {
+        "merged": "/DNS/second test/androidHorizontalListView/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
+        "source": "/Users/riyatraveltours/.android/build-cache/9de7071d3bdade86898e8e5a47a24079bbf0eddf/output/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/DNS/WeBurly/gutTest/androidHorizontalListView/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/Users/riyatraveltours/.android/build-cache/9de7071d3bdade86898e8e5a47a24079bbf0eddf/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/DNS/second test/androidHorizontalListView/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/Users/riyatraveltours/.android/build-cache/9de7071d3bdade86898e8e5a47a24079bbf0eddf/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/DNS/second test/androidHorizontalListView/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
+        "source": "/Users/riyatraveltours/.android/build-cache/9de7071d3bdade86898e8e5a47a24079bbf0eddf/output/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/DNS/WeBurly/androidHorizontalListView/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/Users/riyatraveltours/.android/build-cache/9de7071d3bdade86898e8e5a47a24079bbf0eddf/output/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/DNS/WeBurly/androidHorizontalListView/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
+        "source": "/Users/riyatraveltours/.android/build-cache/9de7071d3bdade86898e8e5a47a24079bbf0eddf/output/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/DNS/WeBurly/gutTest/androidHorizontalListView/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
+        "source": "/Users/riyatraveltours/.android/build-cache/9de7071d3bdade86898e8e5a47a24079bbf0eddf/output/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/DNS/WeBurly/androidHorizontalListView/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
+        "source": "/Users/riyatraveltours/.android/build-cache/9de7071d3bdade86898e8e5a47a24079bbf0eddf/output/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/DNS/WeBurly/androidHorizontalListView/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/Users/riyatraveltours/.android/build-cache/9de7071d3bdade86898e8e5a47a24079bbf0eddf/output/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/DNS/second test/androidHorizontalListView/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
+        "source": "/Users/riyatraveltours/.android/build-cache/9de7071d3bdade86898e8e5a47a24079bbf0eddf/output/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/DNS/second test/androidHorizontalListView/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/Users/riyatraveltours/.android/build-cache/9de7071d3bdade86898e8e5a47a24079bbf0eddf/output/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
         "merged": "/DNS/WeBurly/gutTest/androidHorizontalListView/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
         "source": "/Users/riyatraveltours/.android/build-cache/9de7071d3bdade86898e8e5a47a24079bbf0eddf/output/res/anim/abc_slide_out_bottom.xml"
     },
@@ -68,8 +108,8 @@
         "source": "/Users/riyatraveltours/.android/build-cache/9de7071d3bdade86898e8e5a47a24079bbf0eddf/output/res/anim/abc_fade_in.xml"
     },
     {
-        "merged": "/DNS/WeBurly/gutTest/androidHorizontalListView/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
-        "source": "/Users/riyatraveltours/.android/build-cache/9de7071d3bdade86898e8e5a47a24079bbf0eddf/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
+        "merged": "/DNS/second test/androidHorizontalListView/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
+        "source": "/Users/riyatraveltours/.android/build-cache/9de7071d3bdade86898e8e5a47a24079bbf0eddf/output/res/anim/abc_popup_exit.xml"
     },
     {
         "merged": "/DNS/WeBurly/gutTest/androidHorizontalListView/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
